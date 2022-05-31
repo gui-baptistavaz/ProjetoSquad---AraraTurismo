@@ -1,0 +1,243 @@
+.container-padd {
+  padding-top: 40px;
+  background: white;
+  height: 100vh;
+}
+
+
+body {
+  background: rgb(139, 139, 255);
+}
+
+footer {
+  background: black;
+  height: 18vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+p, strong, span {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* perfil style */
+.perfil-informacoes {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.perfil-informacoes > div {
+  background: rgb(189, 189, 189);
+  padding: 20px;
+  border-radius: 25px;
+}
+/* fim perfil */
+
+/* comentarios style */
+.comentarios-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comentario {
+  padding: 5px;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 5px;
+  width: 35vw;
+  word-break: break-all;
+}
+
+.comentarios-espaco {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+/* fim comentarios */
+
+/* contato style */
+
+.form-contato {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.form-contato > form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*fim contato*/
+
+/*detalhes style*/
+.h1-centraliza {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.local-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dados-local {
+  display: flex;
+  gap: 15px;
+  
+}
+
+.local-info-fundo-cor {
+  width: fit-content;
+  background-color: rgb(189, 189, 189);
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.area-comentario {
+  resize: none;
+  width: 40vw;
+  height: 15vh;
+}
+
+.centraliza-textarea {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*fim dealhes*/
+
+/* Home style */
+.centraliza-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-sabermais {
+  border: solid 1px white;
+  border-radius: 5px;
+  background: rgba(0, 0, 255, 0);
+}
+
+.button-sabermais  {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+.button-sabermais:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+/*fim home*/
+
+/* Mapa style */
+.mapa-tamanho {
+  width: 45vw;
+  height: 80vh;
+}
+
+.titulo-mapa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Browser desktop*/
+@media only screen and (max-width: 960px) {
+  .mapa-texto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mapa-tamanho {
+    width: 70vw;
+    height: 80vh;
+    margin: auto;
+    display: block;
+  }
+}
+
+/*Iphone*/
+@media only screen and (max-device-width: 480px) {
+  .mapa-texto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .area-comentario {
+    width: 80vw;
+    height: 10vh;
+  }
+
+  .comentario {
+    width: 90vw;
+  }
+
+  .mobile-responsive {
+    width: 94vw;
+    height: 60vh;
+  }
+}
+
+/*individual */
+@media only screen and (device-width: 820px) {
+  .ipad-responsive {
+    width: 85vw;
+    height: 60vh;
+  }
+
+  .mapa-texto {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*fim mapa */
+
+
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
